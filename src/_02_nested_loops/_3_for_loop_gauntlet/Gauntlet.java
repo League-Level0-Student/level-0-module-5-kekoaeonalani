@@ -3,7 +3,7 @@ package _02_nested_loops._3_for_loop_gauntlet;
 public class Gauntlet {
 public static void main(String[] args) {
 	Gauntlet g = new Gauntlet();
-	g.taskSeven();
+	g.taskEleven();
 }
 	
 	void taskOne() {
@@ -68,5 +68,53 @@ public static void main(String[] args) {
 			System.out.println("in the year " + i + " I was "+age + " years old.");
 		}
 	}
+	
+	void taskEight() {
+		///PROJECT EIGHT
+		for(int i = 0;i < 3;i++) {
+			for (int k = 0; k < 3;k++) {
+				System.out.println(i + " " + k);
+			}
+	}
+	
 }
+	
+	
+	void taskNine() {
+		///PROJECT NINE(Display the numbers 1 through 9 in a 3x3 square grid)
+		for (int i = 1;i<9;i+=3) {
+			for (int k = 0;k<3;k++) {
+				System.out.print(i + k); 
+			}
+			System.out.println();
+		}
+	}
+	
+	void taskTen() {
+		///PROJECT TEN( Display the numbers 1 through 100 in a 10x10 square grid.)
+		for(int i = 1;i <100;i += 10) {
+			for (int k = 0; k<10;k++) {
+				System.out.print(i + k + " ");
+			}
+			System.out.println();
+		}
+	}
+	
+	void taskEleven() {
+		///PROJECT ELEVEN
+		for (int i = 1;i<7;i++) {
+			for(int k = 0; k<i;k++) {
+			System.out.print("*");
+			}
+			System.out.println();
+		}
+	}
+}
+		
+			
+	
+	
+	
+	
+
 	
