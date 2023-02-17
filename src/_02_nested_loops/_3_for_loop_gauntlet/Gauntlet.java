@@ -3,7 +3,7 @@ package _02_nested_loops._3_for_loop_gauntlet;
 public class Gauntlet {
 public static void main(String[] args) {
 	Gauntlet g = new Gauntlet();
-	g.taskEleven();
+	g.bonusTask();
 }
 	
 	void taskOne() {
@@ -107,6 +107,13 @@ public static void main(String[] args) {
 			System.out.print("*");
 			}
 			System.out.println();
+		}
+	}
+	
+	void bonusTask() {
+		///Write a for loop that counts down from 100 to 0. However, the for loop must start with for(int i = 0; and you may NOT have any code ABOVE your for loop.
+		for(int i = 0; i <100;i++) {
+			System.out.println( 100 - i);
 		}
 	}
 }
