@@ -14,9 +14,9 @@ public class Calculator {
 				JOptionPane.INFORMATION_MESSAGE, null, new String[] { "divide", "multiply", "subtract", "add" }, null);
 
 		// 3) Call the correct method depending on what option the user chooses
-		///if (task == 0) {
-			
-		///}
+		if (task == 0) {
+			///divide(a,b);
+		}
 		
 		// 4) Call the result() method and put the answer in a pop-up
 	}
