@@ -21,16 +21,24 @@ int hoursInt = Integer.parseInt(hoursCoding);
 	// 2. If it is less than or equal to 2, tell them to stop watching YouTube and
 	// write code instead.
 if (hoursInt <= 2 ) {
-	
+	JOptionPane.showMessageDialog(null, "Stop watching YouTube, and write code instead!");
 }
 	// 3. If it is greater than or equal to 3 AND less than or equal to 5, tell them
 	// they're a Code Ninja
+if (hoursInt >= 3 && hoursInt <5) {
+	JOptionPane.showMessageDialog(null, "You are a code ninja!");
+	}
 
+if (hoursInt >= 5) {
+	playBatmanTheme();
+	displayBatman();
+}
+	
 	// 4. If it is more than 5, call the playBatmanTheme  method, then 
 	//    call the displayBatman method.
 
 
-
+///jyhytbhtgvr
 }	
 	
 
