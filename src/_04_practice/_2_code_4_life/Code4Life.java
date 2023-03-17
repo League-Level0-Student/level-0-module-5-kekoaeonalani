@@ -18,7 +18,7 @@ public static void main(String[] args) {
 	// 1. Ask the user how many hours they spent coding this week.
 String hoursCoding = JOptionPane.showInputDialog("How many hours of coding have you done this week?");
 int hoursInt = Integer.parseInt(hoursCoding);
-	// 2. If it is less than or equal to 2, tell them to stop watching YouTube and
+	// 2. If it is less tan or equal to 2, tell them to stop watching YouTube and
 	// write code instead.
 if (hoursInt <= 2 ) {
 	JOptionPane.showMessageDialog(null, "Stop watching YouTube, and write code instead!");
